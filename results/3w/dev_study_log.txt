@@ -1,0 +1,68 @@
+payload sha256 1e025e99897187338c451c4eae1cff6b7c43a4838bf13460ca6c71e510b7d8f7
+[04:06:07] features 100/887 instances (8s)
+[04:06:13] features 200/887 instances (13s)
+[04:06:29] features 300/887 instances (30s)
+[04:06:29] features 400/887 instances (30s)
+[04:06:33] features 500/887 instances (33s)
+[04:06:38] features 600/887 instances (38s)
+[04:06:43] features 700/887 instances (43s)
+[04:06:49] features 800/887 instances (49s)
+[04:07:00] dev features (962002, 333) in 60s (test instances not loaded)
+[04:08:08]   all dev0: train 73908 rows 61s
+[04:09:27]   all dev1: train 99311 rows 140s
+[04:10:33]   all dev2: train 92788 rows 205s
+[04:11:55]   all dev3: train 98621 rows 288s
+[04:13:11]   all dev4: train 99208 rows 364s
+[04:13:15] == all done in 368s; best macro_f1 0.3366 (rounds 20, ema 0.25, auroc 0.6142)
+[04:13:54]   sf dev0: train 73908 rows 39s
+[04:14:40]   sf dev1: train 99311 rows 85s
+[04:15:15]   sf dev2: train 92788 rows 119s
+[04:16:03]   sf dev3: train 98621 rows 168s
+[04:16:46]   sf dev4: train 99208 rows 211s
+[04:16:50] == sf done in 215s; best macro_f1 0.2415 (rounds 50, ema 0.25, auroc 0.6938)
+[04:18:54]   all_aug dev0: train 147816 rows 124s
+[04:21:34]   all_aug dev1: train 198622 rows 284s
+[04:23:55]   all_aug dev2: train 185576 rows 425s
+[04:26:47]   all_aug dev3: train 197242 rows 596s
+[04:29:23]   all_aug dev4: train 198416 rows 753s
+[04:29:27] == all_aug done in 757s; best macro_f1 0.3603 (rounds 20, ema 1.0, auroc 0.6796)
+[04:30:38]   sf_aug dev0: train 147816 rows 71s
+[04:32:03]   sf_aug dev1: train 198622 rows 156s
+[04:33:14]   sf_aug dev2: train 185576 rows 227s
+[04:34:48]   sf_aug dev3: train 197242 rows 321s
+[04:36:14]   sf_aug dev4: train 198416 rows 407s
+[04:36:18] == sf_aug done in 411s; best macro_f1 0.2976 (rounds 100, ema 0.25, auroc 0.4883)
+[04:36:31]   bin_all dev0: train 73908 rows 13s
+[04:36:42]   bin_all dev1: train 99311 rows 24s
+[04:36:51]   bin_all dev2: train 92788 rows 33s
+[04:37:03]   bin_all dev3: train 98621 rows 45s
+[04:37:13]   bin_all dev4: train 99208 rows 55s
+[04:37:17] == bin_all done in 59s; best AP 0.8241 (rounds 50, ema 0.25, auroc 0.8182)
+[04:37:28]   bin_sf_aug dev0: train 147816 rows 11s
+[04:37:38]   bin_sf_aug dev1: train 198622 rows 21s
+[04:37:47]   bin_sf_aug dev2: train 185576 rows 30s
+[04:37:58]   bin_sf_aug dev3: train 197242 rows 42s
+[04:38:09]   bin_sf_aug dev4: train 198416 rows 52s
+[04:38:12] == bin_sf_aug done in 56s; best AP 0.7655 (rounds 20, ema 0.25, auroc 0.7456)
+[04:38:12] all done 1933s
+[04:39:27]   fold dr0: train 95580 rows, predict 146958 rows, 75s
+[04:40:41]   fold dr1: train 95687 rows, predict 146884 rows, 75s
+[04:41:56]   fold dr2: train 95517 rows, predict 147391 rows, 75s
+[04:43:11]   fold dr3: train 95679 rows, predict 147537 rows, 75s
+[04:44:26]   fold dr4: train 95649 rows, predict 146671 rows, 76s
+[04:44:27] leak decision_random: macro_f1(dev classes) 0.9908  auroc 1.0000
+[04:45:38]   fold ir0: train 95068 rows, predict 104890 rows, 72s
+[04:46:47]   fold ir1: train 96361 rows, predict 155513 rows, 68s
+[04:47:59]   fold ir2: train 94818 rows, predict 141403 rows, 72s
+[04:49:12]   fold ir3: train 96652 rows, predict 171301 rows, 73s
+[04:50:25]   fold ir4: train 95212 rows, predict 162334 rows, 73s
+[04:50:26] leak instance_random: macro_f1(dev classes) 0.7386  auroc 0.9616
+[04:51:20]   fold wg0: train 73908 rows, predict 253258 rows, 54s
+[04:52:36]   fold wg1: train 99311 rows, predict 152508 rows, 76s
+[04:53:42]   fold wg2: train 92788 rows, predict 25134 rows, 66s
+[04:54:59]   fold wg3: train 98621 rows, predict 184150 rows, 77s
+[04:56:10]   fold wg4: train 99208 rows, predict 120391 rows, 72s
+[04:56:11] leak well_grouped: macro_f1(dev classes) 0.2946  auroc 0.5835
+[04:56:11] leak study done
+[NbConvertApp] Converting notebook __script__.ipynb to html
+[NbConvertApp] Writing 665750 bytes to __results__.html

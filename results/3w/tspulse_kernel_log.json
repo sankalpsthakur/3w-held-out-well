@@ -1,0 +1,95 @@
+[{"stream_name":"stdout","time":0.875268697,"data":"payload sha256 4e03cf96c971b7eff232c19269b0bf7dab470cfd18c8117292680b12039e3d1e\n"}
+,{"stream_name":"stderr","time":42.321010489,"data":"INFO:p-7:t-132841054904448:_client.py:_send_single_request:HTTP Request: GET https://huggingface.co/api/agent-harnesses \"HTTP/1.1 200 OK\"\n"}
+,{"stream_name":"stderr","time":42.361766867,"data":"INFO:p-7:t-132841054904448:_client.py:_send_single_request:HTTP Request: GET https://huggingface.co/api/models/ibm-granite/granite-timeseries-tspulse-r1 \"HTTP/1.1 200 OK\"\n"}
+,{"stream_name":"stderr","time":42.403661978,"data":"INFO:p-7:t-132841054904448:_client.py:_send_single_request:HTTP Request: HEAD https://huggingface.co/ibm-granite/granite-timeseries-tspulse-r1/resolve/2e64fcdc2a06d3565dfadaf0065c0ab5055f80f2/config.json \"HTTP/1.1 307 Temporary Redirect\"\n"}
+,{"stream_name":"stderr","time":42.40431144,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":42.4043356,"data":"WARNING:p-7:t-132841054904448:_http.py:_warn_on_warning_headers:Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":42.419595278,"data":"INFO:p-7:t-132841054904448:_client.py:_send_single_request:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/ibm-granite/granite-timeseries-tspulse-r1/2e64fcdc2a06d3565dfadaf0065c0ab5055f80f2/config.json \"HTTP/1.1 200 OK\"\n"}
+,{"stream_name":"stderr","time":42.436701863,"data":"INFO:p-7:t-132841054904448:_client.py:_send_single_request:HTTP Request: GET https://huggingface.co/api/resolve-cache/models/ibm-granite/granite-timeseries-tspulse-r1/2e64fcdc2a06d3565dfadaf0065c0ab5055f80f2/config.json \"HTTP/1.1 200 OK\"\n"}
+,{"stream_name":"stderr","time":42.480908903,"data":"INFO:p-7:t-132841054904448:_client.py:_send_single_request:HTTP Request: HEAD https://huggingface.co/ibm-granite/granite-timeseries-tspulse-r1/resolve/main/adapter_config.json \"HTTP/1.1 404 Not Found\"\n"}
+,{"stream_name":"stderr","time":42.525782895,"data":"INFO:p-7:t-132841054904448:_client.py:_send_single_request:HTTP Request: HEAD https://huggingface.co/ibm-granite/granite-timeseries-tspulse-r1/resolve/2e64fcdc2a06d3565dfadaf0065c0ab5055f80f2/model.safetensors \"HTTP/1.1 302 Found\"\n"}
+,{"stream_name":"stderr","time":42.622644978,"data":"INFO:p-7:t-132841054904448:_client.py:_send_single_request:HTTP Request: GET https://huggingface.co/api/models/ibm-granite/granite-timeseries-tspulse-r1/xet-read-token/2e64fcdc2a06d3565dfadaf0065c0ab5055f80f2 \"HTTP/1.1 200 OK\"\n"}
+,{"stream_name":"stderr","time":43.732357748,"data":"\rLoading weights:   0%|          | 0/278 [00:00\u003c?, ?it/s]\rLoading weights:  94%|█████████▍| 261/278 [00:00\u003c00:00, 2608.98it/s]\rLoading weights: 100%|██████████| 278/278 [00:00\u003c00:00, 2654.56it/s]\n"}
+,{"stream_name":"stdout","time":43.744345253,"data":"[11:04:49] model loaded: {'torch': '2.11.0+cpu', 'transformers': '5.16.1', 'numpy': '2.1.3', 'python': '3.13.15', 'n_params': 1084330, 'context_length': 512, 'patch_length': 8}\n"}
+,{"stream_name":"stdout","time":46.801514363,"data":"[11:04:52]   dev: 16/887 instances, 336 scored decisions, 3s\n"}
+,{"stream_name":"stdout","time":49.916582105,"data":"[11:04:55]   dev: 32/887 instances, 816 scored decisions, 6s\n"}
+,{"stream_name":"stdout","time":53.178128639,"data":"[11:04:59]   dev: 48/887 instances, 1296 scored decisions, 9s\n"}
+,{"stream_name":"stdout","time":56.344096079,"data":"[11:05:02]   dev: 64/887 instances, 1776 scored decisions, 12s\n"}
+,{"stream_name":"stdout","time":59.430997536,"data":"[11:05:05]   dev: 80/887 instances, 2256 scored decisions, 16s\n"}
+,{"stream_name":"stdout","time":62.697171787,"data":"[11:05:08]   dev: 96/887 instances, 2736 scored decisions, 19s\n"}
+,{"stream_name":"stdout","time":65.80381545,"data":"[11:05:11]   dev: 112/887 instances, 3216 scored decisions, 22s\n"}
+,{"stream_name":"stdout","time":68.888871969,"data":"[11:05:14]   dev: 128/887 instances, 3690 scored decisions, 25s\n"}
+,{"stream_name":"stdout","time":72.197639,"data":"[11:05:18]   dev: 144/887 instances, 4158 scored decisions, 28s\n"}
+,{"stream_name":"stdout","time":75.269038721,"data":"[11:05:21]   dev: 160/887 instances, 4638 scored decisions, 31s\n"}
+,{"stream_name":"stdout","time":78.394477735,"data":"[11:05:24]   dev: 176/887 instances, 5118 scored decisions, 35s\n"}
+,{"stream_name":"stdout","time":81.681910913,"data":"[11:05:27]   dev: 192/887 instances, 5598 scored decisions, 38s\n"}
+,{"stream_name":"stdout","time":84.759535828,"data":"[11:05:30]   dev: 208/887 instances, 6077 scored decisions, 41s\n"}
+,{"stream_name":"stdout","time":89.150201688,"data":"[11:05:35]   dev: 224/887 instances, 6557 scored decisions, 45s\n"}
+,{"stream_name":"stdout","time":94.176106152,"data":"[11:05:40]   dev: 240/887 instances, 7037 scored decisions, 50s\n"}
+,{"stream_name":"stdout","time":99.795920867,"data":"[11:05:45]   dev: 256/887 instances, 7493 scored decisions, 56s\n"}
+,{"stream_name":"stdout","time":104.362667368,"data":"[11:05:50]   dev: 272/887 instances, 7781 scored decisions, 61s\n"}
+,{"stream_name":"stdout","time":108.75239357,"data":"[11:05:54]   dev: 288/887 instances, 8069 scored decisions, 65s\n"}
+,{"stream_name":"stdout","time":113.413936326,"data":"[11:05:59]   dev: 304/887 instances, 8357 scored decisions, 70s\n"}
+,{"stream_name":"stdout","time":118.018779452,"data":"[11:06:04]   dev: 320/887 instances, 8657 scored decisions, 74s\n"}
+,{"stream_name":"stdout","time":124.661013754,"data":"[11:06:10]   dev: 336/887 instances, 9137 scored decisions, 81s\n"}
+,{"stream_name":"stdout","time":131.089165918,"data":"[11:06:17]   dev: 352/887 instances, 9617 scored decisions, 87s\n"}
+,{"stream_name":"stdout","time":137.59759437,"data":"[11:06:23]   dev: 368/887 instances, 10097 scored decisions, 94s\n"}
+,{"stream_name":"stdout","time":144.03339719,"data":"[11:06:30]   dev: 384/887 instances, 10577 scored decisions, 100s\n"}
+,{"stream_name":"stdout","time":150.322840344,"data":"[11:06:36]   dev: 400/887 instances, 11057 scored decisions, 106s\n"}
+,{"stream_name":"stdout","time":156.847361761,"data":"[11:06:42]   dev: 416/887 instances, 11537 scored decisions, 113s\n"}
+,{"stream_name":"stdout","time":162.846861789,"data":"[11:06:48]   dev: 432/887 instances, 11981 scored decisions, 119s\n"}
+,{"stream_name":"stdout","time":163.869907247,"data":"[11:06:49]   dev: 448/887 instances, 12461 scored decisions, 120s\n"}
+,{"stream_name":"stdout","time":164.96522327,"data":"[11:06:50]   dev: 464/887 instances, 12941 scored decisions, 121s\n"}
+,{"stream_name":"stdout","time":165.985904388,"data":"[11:06:51]   dev: 480/887 instances, 13420 scored decisions, 122s\n"}
+,{"stream_name":"stdout","time":172.575677025,"data":"[11:06:58]   dev: 496/887 instances, 14244 scored decisions, 129s\n"}
+,{"stream_name":"stdout","time":179.332014998,"data":"[11:07:05]   dev: 512/887 instances, 14651 scored decisions, 135s\n"}
+,{"stream_name":"stdout","time":187.393479709,"data":"[11:07:13]   dev: 528/887 instances, 15131 scored decisions, 144s\n"}
+,{"stream_name":"stdout","time":190.471405276,"data":"[11:07:16]   dev: 544/887 instances, 15377 scored decisions, 147s\n"}
+,{"stream_name":"stdout","time":192.519013731,"data":"[11:07:18]   dev: 560/887 instances, 15569 scored decisions, 149s\n"}
+,{"stream_name":"stdout","time":194.485035051,"data":"[11:07:20]   dev: 576/887 instances, 15761 scored decisions, 151s\n"}
+,{"stream_name":"stdout","time":196.471344373,"data":"[11:07:22]   dev: 592/887 instances, 15953 scored decisions, 153s\n"}
+,{"stream_name":"stdout","time":198.363965781,"data":"[11:07:24]   dev: 608/887 instances, 16145 scored decisions, 155s\n"}
+,{"stream_name":"stdout","time":200.325557878,"data":"[11:07:26]   dev: 624/887 instances, 16337 scored decisions, 156s\n"}
+,{"stream_name":"stdout","time":202.396001112,"data":"[11:07:28]   dev: 640/887 instances, 16529 scored decisions, 159s\n"}
+,{"stream_name":"stdout","time":205.632789944,"data":"[11:07:31]   dev: 656/887 instances, 16721 scored decisions, 162s\n"}
+,{"stream_name":"stdout","time":209.299525292,"data":"[11:07:35]   dev: 672/887 instances, 16913 scored decisions, 165s\n"}
+,{"stream_name":"stdout","time":213.458430987,"data":"[11:07:39]   dev: 688/887 instances, 17105 scored decisions, 170s\n"}
+,{"stream_name":"stdout","time":215.923804109,"data":"[11:07:41]   dev: 704/887 instances, 17297 scored decisions, 172s\n"}
+,{"stream_name":"stdout","time":217.934492834,"data":"[11:07:43]   dev: 720/887 instances, 17489 scored decisions, 174s\n"}
+,{"stream_name":"stdout","time":219.97877658,"data":"[11:07:45]   dev: 736/887 instances, 17681 scored decisions, 176s\n"}
+,{"stream_name":"stdout","time":222.122557977,"data":"[11:07:48]   dev: 752/887 instances, 17873 scored decisions, 178s\n"}
+,{"stream_name":"stdout","time":224.211902558,"data":"[11:07:50]   dev: 768/887 instances, 18065 scored decisions, 180s\n"}
+,{"stream_name":"stdout","time":228.063362288,"data":"[11:07:54]   dev: 784/887 instances, 18257 scored decisions, 184s\n"}
+,{"stream_name":"stdout","time":235.378183674,"data":"[11:08:01]   dev: 800/887 instances, 18670 scored decisions, 192s\n"}
+,{"stream_name":"stdout","time":279.214098857,"data":"[11:08:45]   dev: 816/887 instances, 22840 scored decisions, 235s\n"}
+,{"stream_name":"stdout","time":329.263185299,"data":"[11:09:35]   dev: 832/887 instances, 28019 scored decisions, 285s\n"}
+,{"stream_name":"stdout","time":390.361190106,"data":"[11:10:36]   dev: 848/887 instances, 34295 scored decisions, 347s\n"}
+,{"stream_name":"stdout","time":403.092908789,"data":"[11:10:49]   dev: 864/887 instances, 35871 scored decisions, 359s\n"}
+,{"stream_name":"stdout","time":408.82239944,"data":"[11:10:54]   dev: 880/887 instances, 36605 scored decisions, 365s\n"}
+,{"stream_name":"stdout","time":414.130497291,"data":"[11:11:00]   dev: 887/887 instances, 36965 scored decisions, 370s\n"}
+,{"stream_name":"stdout","time":414.193110831,"data":"[11:11:00] dev errors done 413s; q99 per channel: [5.139999866485596, nan, 3.3399999141693115, 6.400000095367432, 1.350000023841858, 3.8499999046325684, nan, 1.6799999475479126, nan, 3.430000066757202, nan, 3.5299999713897705, 3.890000104904175, 3.490000009536743, 2.5199999809265137, 3.799999952316284, 0.4399999976158142, 1.2599999904632568]\n"}
+,{"stream_name":"stdout","time":428.832651219,"data":"[11:11:14] phase 1 done 427s: dev AUROC 0.6903, AP 0.6389, theta 0.8500000000000001; variants {'max_q': {'auroc': 0.6902527589926991, 'average_precision': 0.6388594810741849}, 'mean_top3_q': {'auroc': 0.7010578362191946, 'average_precision': 0.6513741689728008}, 'mean_all_q': {'auroc': 0.676660306287416, 'average_precision': 0.6284794680884193}, 'max_raw': {'auroc': 0.6889902969139379, 'average_precision': 0.63818536865154}}\n"}
+,{"stream_name":"stdout","time":435.422767698,"data":"[11:11:21]   test: 16/232 instances, 480 scored decisions, 7s\n"}
+,{"stream_name":"stdout","time":442.204059578,"data":"[11:11:28]   test: 32/232 instances, 972 scored decisions, 13s\n"}
+,{"stream_name":"stdout","time":448.734389067,"data":"[11:11:34]   test: 48/232 instances, 1452 scored decisions, 20s\n"}
+,{"stream_name":"stdout","time":455.468091673,"data":"[11:11:41]   test: 64/232 instances, 1932 scored decisions, 27s\n"}
+,{"stream_name":"stdout","time":462.058764052,"data":"[11:11:48]   test: 80/232 instances, 2405 scored decisions, 33s\n"}
+,{"stream_name":"stdout","time":468.159679744,"data":"[11:11:54]   test: 96/232 instances, 2831 scored decisions, 39s\n"}
+,{"stream_name":"stdout","time":472.835921605,"data":"[11:11:58]   test: 112/232 instances, 3172 scored decisions, 44s\n"}
+,{"stream_name":"stdout","time":476.244662251,"data":"[11:12:02]   test: 128/232 instances, 3365 scored decisions, 47s\n"}
+,{"stream_name":"stdout","time":480.382351253,"data":"[11:12:06]   test: 144/232 instances, 3557 scored decisions, 52s\n"}
+,{"stream_name":"stdout","time":484.631978385,"data":"[11:12:10]   test: 160/232 instances, 3755 scored decisions, 56s\n"}
+,{"stream_name":"stdout","time":488.63629894,"data":"[11:12:14]   test: 176/232 instances, 3947 scored decisions, 60s\n"}
+,{"stream_name":"stdout","time":492.763354631,"data":"[11:12:18]   test: 192/232 instances, 4139 scored decisions, 64s\n"}
+,{"stream_name":"stdout","time":504.913419514,"data":"[11:12:30]   test: 208/232 instances, 6614 scored decisions, 76s\n"}
+,{"stream_name":"stdout","time":532.43680134,"data":"[11:12:58]   test: 224/232 instances, 9768 scored decisions, 104s\n"}
+,{"stream_name":"stdout","time":551.184482135,"data":"[11:13:17]   test: 232/232 instances, 11354 scored decisions, 122s\n"}
+,{"stream_name":"stdout","time":551.210015404,"data":"[11:13:17] === SEALED-TEST SCORING tspulse starts 11:13:17 ===\n"}
+,{"stream_name":"stdout","time":551.898183899,"data":"[11:13:17] === SEALED-TEST SCORING tspulse done 11:13:17 ===  all done 551s\n"}
+,{"stream_name":"stderr","time":555.947053279,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":555.947107614,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":556.251249804,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":556.25127924,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":557.165271867,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":558.383061143,"data":"[NbConvertApp] Writing 668210 bytes to __results__.html\n"}
+]

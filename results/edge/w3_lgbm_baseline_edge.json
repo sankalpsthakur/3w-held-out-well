@@ -1,0 +1,32 @@
+{
+ "name": "lgbm_baseline",
+ "n_trees": 2000,
+ "n_internal_nodes": 39068,
+ "n_leaves": 41068,
+ "depth": 17,
+ "model_text_bytes": 4884154,
+ "verify_vs_kernel_max_abs_diff": 2.978403035314159e-08,
+ "verify_argmax_agreement": 1.0,
+ "compact_int8_leaf_raw_bytes": 661096,
+ "compact_int8_leaf_npz_bytes": 359310,
+ "compact_vs_fp_max_abs_diff_proba": 0.0028694467951131397,
+ "compact_vs_fp_argmax_agreement": 0.999,
+ "latency_model_numpy_fp_1thread_batch1": {
+  "median_us": 4327.0,
+  "p95_us": 15528.5,
+  "n": 300
+ },
+ "latency_model_numpy_int8leaf_1thread_batch1": {
+  "median_us": 3787.7,
+  "p95_us": 10920.0,
+  "n": 300
+ },
+ "latency_features_one_decision_from_3601_row_buffer": {
+  "median_us": 15376.6,
+  "p95_us": 36983.0,
+  "n": 100
+ },
+ "streaming_buffer_bytes_fp32_27ch_x_3600": 388800,
+ "end_to_end_median_us_numpy_reference": 19703.6,
+ "note": "numpy/Python reference implementations at 1 thread on the M4; features recomputed from the buffer each decision (decisions are 30 s apart); an embedded C implementation would be far faster"
+}

@@ -1,0 +1,42 @@
+tspulse minus simple on 10 test wells (same resamples as the scorer, B=2000)
+  auroc                          A   0.4926  B   0.4720  diff  +0.0205 [-0.3987, +0.1735] contains 0
+  average_precision              A   0.4405  B   0.4474  diff  -0.0069 [-0.2021, +0.0978] contains 0
+  episode_coverage               A   0.1455  B   0.2091  diff  -0.0636 [-0.4400, +0.0185] contains 0
+  onset_detection_300s           A   0.2667  B   0.5000  diff  -0.2333 [-0.3684, -0.0345] excludes 0
+  false_alarms_per_normal_day    A   0.9636  B   1.0554  diff  -0.0918 [-2.2656, +1.1424] contains 0
+  normal_time_occupation         A   0.0065  B   0.0038  diff  +0.0027 [-0.0071, +0.0087] contains 0
+tspulse minus volatility on 10 test wells (same resamples as the scorer, B=2000)
+  auroc                          A   0.4926  B   0.5370  diff  -0.0445 [-0.3569, +0.1817] contains 0
+  average_precision              A   0.4405  B   0.5634  diff  -0.1229 [-0.3773, +0.0662] contains 0
+  episode_coverage               A   0.1455  B   0.1909  diff  -0.0455 [-0.3846, +0.0288] contains 0
+  onset_detection_300s           A   0.2667  B   0.1667  diff  +0.1000 [-0.1250, +0.2162] contains 0
+  false_alarms_per_normal_day    A   0.9636  B   0.4130  diff  +0.5506 [-0.7428, +1.3113] contains 0
+  normal_time_occupation         A   0.0065  B   0.0044  diff  +0.0021 [-0.0118, +0.0086] contains 0
+tspulse minus rf on 10 test wells (same resamples as the scorer, B=2000)
+  auroc                          A   0.4926  B   0.7404  diff  -0.2479 [-0.5350, -0.0573] excludes 0
+  average_precision              A   0.4405  B   0.7327  diff  -0.2922 [-0.5646, -0.0576] excludes 0
+  episode_coverage               A   0.1455  B   0.3091  diff  -0.1636 [-0.3847, -0.0385] excludes 0
+  onset_detection_300s           A   0.2667  B   0.3333  diff  -0.0667 [-0.1724, +0.1333] contains 0
+  false_alarms_per_normal_day    A   0.9636  B   2.9368  diff  -1.9732 [-13.2100, +1.1427] contains 0
+  normal_time_occupation         A   0.0065  B   0.0293  diff  -0.0227 [-0.1363, +0.0075] contains 0
+tspulse minus lgbm on 10 test wells (same resamples as the scorer, B=2000)
+  auroc                          A   0.4926  B   0.5815  diff  -0.0889 [-0.4850, +0.1624] contains 0
+  average_precision              A   0.4405  B   0.6265  diff  -0.1860 [-0.6074, +0.0174] contains 0
+  episode_coverage               A   0.1455  B   0.6000  diff  -0.4545 [-0.7100, +0.0323] contains 0
+  onset_detection_300s           A   0.2667  B   0.4000  diff  -0.1333 [-0.2653, +0.1333] contains 0
+  false_alarms_per_normal_day    A   0.9636  B   0.3900  diff  +0.5736 [-1.6407, +1.3449] contains 0
+  normal_time_occupation         A   0.0065  B   0.0013  diff  +0.0053 [-0.0031, +0.0094] contains 0
+tspulse minus best on 10 test wells (same resamples as the scorer, B=2000)
+  auroc                          A   0.4926  B   0.7512  diff  -0.2586 [-0.5900, -0.0408] excludes 0
+  average_precision              A   0.4405  B   0.7258  diff  -0.2854 [-0.6860, -0.0467] excludes 0
+  episode_coverage               A   0.1455  B   0.6545  diff  -0.5091 [-0.7477, -0.1000] excludes 0
+  onset_detection_300s           A   0.2667  B   0.4000  diff  -0.1333 [-0.2653, +0.1333] contains 0
+  false_alarms_per_normal_day    A   0.9636  B   0.5506  diff  +0.4130 [-2.3947, +1.2761] contains 0
+  normal_time_occupation         A   0.0065  B   0.0034  diff  +0.0032 [-0.0153, +0.0086] contains 0
+tspulse minus best_binary on 10 test wells (same resamples as the scorer, B=2000)
+  auroc                          A   0.4926  B   0.4487  diff  +0.0439 [-0.4150, +0.2274] contains 0
+  average_precision              A   0.4405  B   0.4234  diff  +0.0171 [-0.3903, +0.1127] contains 0
+  episode_coverage               A   0.1455  B   0.0545  diff  +0.0909 [-0.1154, +0.3948] contains 0
+  onset_detection_300s           A   0.2667  B   0.0000  diff  +0.2667 [+0.0000, +0.4532] contains 0
+  false_alarms_per_normal_day    A   0.9636  B   0.1835  diff  +0.7801 [-0.4607, +1.3897] contains 0
+  normal_time_occupation         A   0.0065  B   0.0048  diff  +0.0018 [-0.0250, +0.0084] contains 0

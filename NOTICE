@@ -1,0 +1,11 @@
+3W held-out-well benchmark protocol
+Copyright 2026 Sankalp Thakur
+
+Code and text in this repository are licensed under the Apache License, Version 2.0 (see LICENSE).
+
+The label-derived files protocol/index_labels.json, protocol/instances.csv, protocol/decisions.npz
+and protocol/manifest.csv are derived from the labels of the Petrobras 3W dataset, release 2.0.0
+(https://github.com/petrobras/3W; Vargas et al., "3W dataset 2.0.0", Scientific Data 2026,
+doi 10.1038/s41597-026-07225-z), which is licensed CC BY 4.0. Those files are redistributed under
+CC BY 4.0 with that attribution. No 3W sensor data is included; the kernels fetch the pinned
+dataset commit themselves.

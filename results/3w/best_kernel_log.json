@@ -1,0 +1,121 @@
+[{"stream_name":"stdout","time":0.965903956,"data":"payload sha256 3965a6f0796363aef44640b53ec15f57be577e930d629324c7264aab158dbad2\n"}
+,{"stream_name":"stdout","time":1.625535518,"data":"[10:29:53] benchmark loaded: 962002 decisions, 40 wells; payload checks passed; smoke=False\n"}
+,{"stream_name":"stdout","time":10.596416203,"data":"[10:30:02] features 100/1119 instances (9s)\n"}
+,{"stream_name":"stdout","time":16.062747489,"data":"[10:30:07] features 200/1119 instances (14s)\n"}
+,{"stream_name":"stdout","time":21.717211824,"data":"[10:30:13] features 300/1119 instances (20s)\n"}
+,{"stream_name":"stdout","time":27.722625049,"data":"[10:30:19] features 400/1119 instances (26s)\n"}
+,{"stream_name":"stdout","time":33.656339474,"data":"[10:30:25] features 500/1119 instances (32s)\n"}
+,{"stream_name":"stderr","time":38.973309713,"data":"/tmp/w3code/w3/pipeline.py:58: RuntimeWarning: overflow encountered in cast\n"}
+,{"stream_name":"stderr","time":38.973358875,"data":"  cont[:, F.CONT.index(c)] = a\n"}
+,{"stream_name":"stdout","time":39.318585385,"data":"[10:30:30] features 600/1119 instances (37s)\n"}
+,{"stream_name":"stdout","time":44.621855903,"data":"[10:30:36] features 700/1119 instances (43s)\n"}
+,{"stream_name":"stdout","time":49.121850219,"data":"[10:30:40] features 800/1119 instances (47s)\n"}
+,{"stream_name":"stdout","time":54.648398801,"data":"[10:30:46] features 900/1119 instances (53s)\n"}
+,{"stream_name":"stdout","time":59.857193828,"data":"[10:30:51] features 1000/1119 instances (58s)\n"}
+,{"stream_name":"stdout","time":74.793882941,"data":"[10:31:06] features 1100/1119 instances (73s)\n"}
+,{"stream_name":"stdout","time":78.059679831,"data":"[10:31:09] features (962002, 333) in 77s\n"}
+,{"stream_name":"stderr","time":101.561754789,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":101.56179872,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":125.302553849,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":125.302633387,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":147.949460116,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":147.949498018,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":172.045572007,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":172.045653942,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":196.247463776,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":196.247511529,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":211.817943181,"data":"[10:33:23] phase 1 best seed 0: dev OOF macro_f1 0.3603 (dev study 0.3603), theta 0.9628283560276032, 126s\n"}
+,{"stream_name":"stderr","time":227.467181272,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":227.467223774,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":250.800131096,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":250.800189734,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":273.988829781,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":273.988870946,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":298.291673005,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":298.291711306,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":322.709867408,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":322.709933819,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":336.960469981,"data":"[10:35:28] phase 1 best seed 1: dev OOF macro_f1 0.3982 (dev study 0.3603), theta 0.9055037498474121, 125s\n"}
+,{"stream_name":"stderr","time":352.375597094,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":352.375639603,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":375.839234224,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":375.839291151,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":398.470556341,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":398.470690432,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":422.870252047,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":422.870300576,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":446.954168476,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":446.954214115,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":461.753829357,"data":"[10:37:33] phase 1 best seed 2: dev OOF macro_f1 0.4113 (dev study 0.3603), theta 0.9466820955276489, 125s\n"}
+,{"stream_name":"stderr","time":465.716911925,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":465.716964633,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":471.169172306,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":471.169212713,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":476.21956624,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":476.21966546,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":481.442360599,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":481.44239386,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":486.640011884,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":486.64005957,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":501.1914314,"data":"[10:38:12] phase 1 best_binary seed 0: dev OOF average_precision 0.8241 (dev study 0.8241), theta 0.7493385672569284, 39s\n"}
+,{"stream_name":"stderr","time":505.170977872,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":505.171037856,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":510.602538709,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":510.60258546,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":515.627408009,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":515.627491372,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":520.779030917,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":520.779131364,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":525.99242792,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":525.992471274,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":540.419604842,"data":"[10:38:51] phase 1 best_binary seed 1: dev OOF average_precision 0.7892 (dev study 0.8241), theta 0.8363963127136229, 39s\n"}
+,{"stream_name":"stderr","time":544.339210513,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":544.339253219,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":549.659903469,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":549.659946935,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":554.637159616,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":554.637203134,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":559.670273514,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":559.670334962,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":564.856163682,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":564.856225832,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":579.61959501,"data":"[10:39:31] phase 1 best_binary seed 2: dev OOF average_precision 0.8408 (dev study 0.8241), theta 0.6789216518402106, 39s\n"}
+,{"stream_name":"stdout","time":579.620333906,"data":"[10:39:31] phase 1 done 578s: all reproduction asserts passed; the sealed-test scoring starts below\n"}
+,{"stream_name":"stderr","time":603.063929921,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":603.063973871,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":603.71791881,"data":"[10:39:55] best: edge block done; numpy-vs-lightgbm max diff 4.44e-16\n"}
+,{"stream_name":"stdout","time":603.717982704,"data":"[10:39:55] === SEALED-TEST SCORING best seed 0 starts 10:39:55 ===\n"}
+,{"stream_name":"stderr","time":603.814263861,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":603.814302424,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":631.44329437,"data":"[10:40:22] === SEALED-TEST SCORING best seed 0 done 10:40:22  (52s) ===\n"}
+,{"stream_name":"stdout","time":654.889916383,"data":"[10:40:46] === SEALED-TEST SCORING best seed 1 starts 10:40:46 ===\n"}
+,{"stream_name":"stderr","time":654.987154606,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":654.987194622,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":655.75859624,"data":"[10:40:47] === SEALED-TEST SCORING best seed 1 done 10:40:47  (24s) ===\n"}
+,{"stream_name":"stdout","time":679.163711173,"data":"[10:41:10] === SEALED-TEST SCORING best seed 2 starts 10:41:10 ===\n"}
+,{"stream_name":"stderr","time":679.258642505,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":679.258673771,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":680.04290694,"data":"[10:41:11] === SEALED-TEST SCORING best seed 2 done 10:41:11  (24s) ===\n"}
+,{"stream_name":"stderr","time":685.062789207,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":685.062851903,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":685.238357429,"data":"[10:41:16] best_binary: edge block done; numpy-vs-lightgbm max diff 0.00e+00\n"}
+,{"stream_name":"stdout","time":685.238387748,"data":"[10:41:16] === SEALED-TEST SCORING best_binary seed 0 starts 10:41:16 ===\n"}
+,{"stream_name":"stderr","time":685.352609549,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":685.352648937,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":695.079151346,"data":"[10:41:26] === SEALED-TEST SCORING best_binary seed 0 done 10:41:26  (15s) ===\n"}
+,{"stream_name":"stdout","time":700.042152604,"data":"[10:41:31] === SEALED-TEST SCORING best_binary seed 1 starts 10:41:31 ===\n"}
+,{"stream_name":"stderr","time":700.155975873,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":700.156020915,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":700.877535289,"data":"[10:41:32] === SEALED-TEST SCORING best_binary seed 1 done 10:41:32  (6s) ===\n"}
+,{"stream_name":"stdout","time":705.938412973,"data":"[10:41:37] === SEALED-TEST SCORING best_binary seed 2 starts 10:41:37 ===\n"}
+,{"stream_name":"stderr","time":706.05437084,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":706.054410008,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":706.768098499,"data":"[10:41:38] === SEALED-TEST SCORING best_binary seed 2 done 10:41:38  (6s) ===\n"}
+,{"stream_name":"stdout","time":706.772580049,"data":"[10:41:38] all done 705s\n"}
+,{"stream_name":"stderr","time":710.347909313,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":710.347988533,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":710.703727668,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":710.703760761,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":711.731164424,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":713.160566528,"data":"[NbConvertApp] Writing 668466 bytes to __results__.html\n"}
+]

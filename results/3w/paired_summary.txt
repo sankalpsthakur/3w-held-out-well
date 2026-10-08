@@ -1,0 +1,32 @@
+best minus lgbm on 10 test wells (same resamples as the scorer, B=2000)
+  macro_f1                       A   0.2577  B   0.2918  diff  -0.0341 [-0.1391, +0.0706] contains 0
+  balanced_accuracy              A   0.3495  B   0.2774  diff  +0.0720 [-0.1643, +0.1901] contains 0
+  auroc                          A   0.7512  B   0.5815  diff  +0.1697 [-0.0057, +0.3247] contains 0
+  average_precision              A   0.7258  B   0.6265  diff  +0.0994 [-0.0139, +0.2427] contains 0
+  episode_coverage               A   0.6545  B   0.6000  diff  +0.0545 [+0.0164, +0.1429] excludes 0
+  onset_detection_300s           A   0.4000  B   0.4000  diff  +0.0000 [+0.0000, +0.0000] contains 0
+  false_alarms_per_normal_day    A   0.5506  B   0.3900  diff  +0.1606 [-0.0326, +1.3394] contains 0
+  normal_time_occupation         A   0.0034  B   0.0013  diff  +0.0021 [-0.0002, +0.0149] contains 0
+best minus rf on 10 test wells (same resamples as the scorer, B=2000)
+  macro_f1                       A   0.2577  B   0.2655  diff  -0.0079 [-0.1074, +0.1161] contains 0
+  balanced_accuracy              A   0.3495  B   0.3066  diff  +0.0429 [-0.1568, +0.1799] contains 0
+  auroc                          A   0.7512  B   0.7404  diff  +0.0108 [-0.0830, +0.2026] contains 0
+  average_precision              A   0.7258  B   0.7327  diff  -0.0069 [-0.0989, +0.1457] contains 0
+  episode_coverage               A   0.6545  B   0.3091  diff  +0.3455 [-0.2941, +0.7037] contains 0
+  onset_detection_300s           A   0.4000  B   0.3333  diff  +0.0667 [+0.0000, +0.1176] contains 0
+  false_alarms_per_normal_day    A   0.5506  B   2.9368  diff  -2.3861 [-12.3273, +1.0811] contains 0
+  normal_time_occupation         A   0.0034  B   0.0293  diff  -0.0259 [-0.1276, +0.0055] contains 0
+best_binary minus lgbm on 10 test wells (same resamples as the scorer, B=2000)
+  auroc                          A   0.4487  B   0.5815  diff  -0.1328 [-0.3346, -0.0011] excludes 0
+  average_precision              A   0.4234  B   0.6265  diff  -0.2030 [-0.4031, -0.0149] excludes 0
+  episode_coverage               A   0.0545  B   0.6000  diff  -0.5455 [-0.8111, +0.1502] contains 0
+  onset_detection_300s           A   0.0000  B   0.4000  diff  -0.4000 [-0.6757, +0.0000] contains 0
+  false_alarms_per_normal_day    A   0.1835  B   0.3900  diff  -0.2065 [-1.7823, +0.7159] contains 0
+  normal_time_occupation         A   0.0048  B   0.0013  diff  +0.0035 [-0.0022, +0.0262] contains 0
+best_binary minus rf on 10 test wells (same resamples as the scorer, B=2000)
+  auroc                          A   0.4487  B   0.7404  diff  -0.2918 [-0.4325, -0.0038] excludes 0
+  average_precision              A   0.4234  B   0.7327  diff  -0.3093 [-0.4545, -0.0230] excludes 0
+  episode_coverage               A   0.0545  B   0.3091  diff  -0.2545 [-0.6923, -0.0500] excludes 0
+  onset_detection_300s           A   0.0000  B   0.3333  diff  -0.3333 [-0.5600, +0.0000] contains 0
+  false_alarms_per_normal_day    A   0.1835  B   2.9368  diff  -2.7532 [-13.2827, +0.1637] contains 0
+  normal_time_occupation         A   0.0048  B   0.0293  diff  -0.0245 [-0.1256, +0.0074] contains 0
