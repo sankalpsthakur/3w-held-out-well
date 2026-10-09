@@ -1,0 +1,87 @@
+{
+ "name": "best",
+ "n_trees": 200,
+ "n_internal_nodes": 2800,
+ "n_leaves": 3000,
+ "depth": 14,
+ "model_text_bytes": 368577,
+ "compact_int8_leaf_raw_bytes": 48408,
+ "compact_int8_leaf_npz_bytes": 28245,
+ "kernel_verification": {
+  "n_trees": 200,
+  "n_internal_nodes": 2800,
+  "n_leaves": 3000,
+  "depth": 14,
+  "total_leaves_lightgbm": 3000,
+  "n_features_total": 333,
+  "n_features_split_on": 232,
+  "model_text_bytes": 368577,
+  "compact_int8_leaf_raw_bytes": 48408,
+  "compact_int8_leaf_npz_bytes": 28245,
+  "verify_numpy_vs_lightgbm_max_abs_diff": 4.440892098500626e-16,
+  "verify_numpy_vs_lightgbm_argmax_agreement": 1.0,
+  "compact_vs_fp_max_abs_diff": 0.004268867592284786,
+  "compact_vs_fp_argmax_agreement": 1.0,
+  "probe": "2000 random eligible DEV-well decisions (seed 1)"
+ },
+ "top_gain_features": [
+  [
+   "T-PDG|last",
+   148080.84385681152
+  ],
+  [
+   "T-JUS-CKP|last",
+   127362.59237861633
+  ],
+  [
+   "T-PDG|min_w3",
+   118231.3311843872
+  ],
+  [
+   "T-TPT|mean_w4",
+   118182.37074661255
+  ],
+  [
+   "T-TPT|std_w4",
+   118055.38563919067
+  ],
+  [
+   "T-MON-CKP|mean_w4",
+   107772.24396133423
+  ],
+  [
+   "T-PDG|mean_w4",
+   103924.61770629883
+  ],
+  [
+   "ABER-CKGL|mean_w4",
+   103724.69159412384
+  ],
+  [
+   "ABER-CKGL|max_w3",
+   88705.2868270874
+  ],
+  [
+   "QGL|mean_w4",
+   83904.32454299927
+  ]
+ ],
+ "latency_model_numpy_fp_1thread_batch1": {
+  "median_us": 189.4,
+  "p95_us": 209.7,
+  "n": 300
+ },
+ "latency_model_numpy_int8leaf_1thread_batch1": {
+  "median_us": 186.4,
+  "p95_us": 202.0,
+  "n": 300
+ },
+ "latency_features_one_decision_from_3601_row_buffer": {
+  "median_us": 2402.5,
+  "p95_us": 2559.8,
+  "n": 100
+ },
+ "streaming_buffer_bytes_fp32_27ch_x_3600": 388800,
+ "end_to_end_median_us_numpy_reference": 2591.9,
+ "note": "numpy/Python reference implementations at 1 thread on the M4; features recomputed from the buffer each decision (decisions are 30 s apart); an embedded C implementation would be far faster"
+}

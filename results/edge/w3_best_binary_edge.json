@@ -1,0 +1,87 @@
+{
+ "name": "best_binary",
+ "n_trees": 50,
+ "n_internal_nodes": 700,
+ "n_leaves": 750,
+ "depth": 14,
+ "model_text_bytes": 103643,
+ "compact_int8_leaf_raw_bytes": 12108,
+ "compact_int8_leaf_npz_bytes": 8952,
+ "kernel_verification": {
+  "n_trees": 50,
+  "n_internal_nodes": 700,
+  "n_leaves": 750,
+  "depth": 14,
+  "total_leaves_lightgbm": 750,
+  "n_features_total": 333,
+  "n_features_split_on": 129,
+  "model_text_bytes": 103643,
+  "compact_int8_leaf_raw_bytes": 12108,
+  "compact_int8_leaf_npz_bytes": 8952,
+  "verify_numpy_vs_lightgbm_max_abs_diff": 0.0,
+  "verify_numpy_vs_lightgbm_argmax_agreement": null,
+  "compact_vs_fp_max_abs_diff": 0.0038482167835923245,
+  "compact_vs_fp_argmax_agreement": null,
+  "probe": "2000 random eligible DEV-well decisions (seed 1)"
+ },
+ "top_gain_features": [
+  [
+   "T-TPT|min_w3",
+   92478.88826751709
+  ],
+  [
+   "T-TPT|mean_w4",
+   26966.872077941895
+  ],
+  [
+   "T-TPT|mean_w2",
+   26657.474182128906
+  ],
+  [
+   "T-JUS-CKP|std_w4",
+   21166.374561309814
+  ],
+  [
+   "ESTADO-M1|last",
+   17009.011123657227
+  ],
+  [
+   "T-MON-CKP|rough_w3",
+   16326.712036132812
+  ],
+  [
+   "T-JUS-CKP|std_w2",
+   12940.599822998047
+  ],
+  [
+   "T-TPT|mean_w3",
+   11459.771919250488
+  ],
+  [
+   "T-TPT|last",
+   11359.826126098633
+  ],
+  [
+   "T-JUS-CKP|cv_w3",
+   11080.724060058594
+  ]
+ ],
+ "latency_model_numpy_fp_1thread_batch1": {
+  "median_us": 144.5,
+  "p95_us": 168.4,
+  "n": 300
+ },
+ "latency_model_numpy_int8leaf_1thread_batch1": {
+  "median_us": 138.1,
+  "p95_us": 151.4,
+  "n": 300
+ },
+ "latency_features_one_decision_from_3601_row_buffer": {
+  "median_us": 2441.1,
+  "p95_us": 2601.8,
+  "n": 100
+ },
+ "streaming_buffer_bytes_fp32_27ch_x_3600": 388800,
+ "end_to_end_median_us_numpy_reference": 2585.6,
+ "note": "numpy/Python reference implementations at 1 thread on the M4; features recomputed from the buffer each decision (decisions are 30 s apart); an embedded C implementation would be far faster"
+}

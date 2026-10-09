@@ -70,3 +70,13 @@ Code and text: Apache-2.0 (see `LICENSE`). The label-derived files under `protoc
 3W dataset's CC BY 4.0 licence with attribution (see `NOTICE`).
 
 Sankalp Thakur, October 2026. Self-evaluated; not peer-reviewed.
+
+## Edge numbers (Apple M4, one thread, batch 1, measured 2026-10-09 at a 1-minute load average under 4)
+
+| model | leaves | int8 leaf export | model-only per decision (median) | features per decision from the 3,601-row buffer | end to end |
+|---|---|---|---|---|---|
+| compact LightGBM selected on development wells | 3,000 | 28 KB | 0.19 ms | 2.40 ms | 2.6 ms |
+| binary event detector | 750 | 9 KB | 0.14 ms | 2.44 ms | 2.6 ms |
+| baseline LightGBM | 41,068 | 359 KB | 0.61 ms | 2.47 ms | 3.1 ms |
+
+Streaming buffer: 27 channels x 3,600 rows of float32 = 389 KB. Files: `results/edge/w3_*_edge.json` (the `_remeasured` baseline file replaces an earlier measurement taken on a loaded machine).
