@@ -29,7 +29,9 @@ Table 6) saw the same effect on 3W v1: 0.9928 with equal folds, 0.6434 +- 0.2326
 | simple change detector (training-free) | - | 0.47 |
 | volatility detector (training-free) | - | 0.54 |
 | TSPulse reconstruction, zero-shot | - | 0.49 |
-| compact LightGBM selected on development wells (3,000 leaves, 28 KB int8) | 0.258 [0.164, 0.483] | 0.449 |
+| compact LightGBM selected on development wells (3,000 leaves, 28 KB int8) | 0.258 [0.164, 0.483] | 0.751 [0.504, 0.959] |
+
+Correction (2026-10-19): the compact LightGBM's event AUROC was shown as 0.449, which is the binary event detector's value; its own is 0.751 [0.504, 0.959] (`results/3w/best_tables.md`, `docs/3W-HW-WRITEUP.md`). Nothing else in the table changed.
 
 With ten test wells the intervals are wide (five of the nine event classes have a single test
 well) and the baselines cannot be told apart. The protocol is meant to make that visible, not
